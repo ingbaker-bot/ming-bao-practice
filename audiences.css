@@ -1,0 +1,13 @@
+.audience-label{color:#087569;font-size:13px;font-weight:800;margin:0 0 12px;letter-spacing:.04em}
+[data-audience="advisor"] .audience-label{color:#77531d}
+[data-audience="advisor"] .hero{background:linear-gradient(135deg,#fff5e3,#f0f7fa)}
+.teaching-note{margin:24px auto 0;padding:20px 24px;max-width:1180px;background:#fff7e8;border-left:4px solid #ca9136;border-radius:14px;color:#17233c}
+.teaching-note h3{font-size:18px;margin:0 0 6px;line-height:1.5}
+.teaching-note p{font-size:16px;line-height:1.8;margin:0;color:#526073}
+.next-step{margin-top:22px;padding:22px 26px;background:#edf6f2;border-radius:18px}
+.next-step strong{font-size:20px;color:#17233c}
+.next-step p{margin:8px 0 0}
+[data-audience="advisor"] .next-step{background:#fff5e3}
+[data-audience="advisor"] .desktop-nav{gap:15px}
+[data-audience="advisor"] .desktop-nav a{font-size:13px}
+@media(max-width:600px){.teaching-note,.next-step{padding:18px}.audience-label{font-size:12px;margin-bottom:8px}.next-step strong{font-size:18px}}
